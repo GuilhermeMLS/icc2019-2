@@ -1,6 +1,6 @@
 CC = clang
 CFLAGS = -Wall
-OBJECTS = matrix.o
+OBJECTS = libs/matrix.o
 LDLIBS = -lreadline
 
 all: main

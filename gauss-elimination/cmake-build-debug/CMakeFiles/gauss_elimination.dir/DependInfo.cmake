@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/guilhermemorais/CLionProjects/icc/replacement/libs/matrix.c" "/Users/guilhermemorais/CLionProjects/icc/replacement/cmake-build-debug/CMakeFiles/gauss_elimination.dir/libs/matrix.c.o"
-  "/Users/guilhermemorais/CLionProjects/icc/replacement/main.c" "/Users/guilhermemorais/CLionProjects/icc/replacement/cmake-build-debug/CMakeFiles/gauss_elimination.dir/main.c.o"
+  "/Users/guilhermemorais/CLionProjects/icc/gauss-elimination/libs/matrix.c" "/Users/guilhermemorais/CLionProjects/icc/gauss-elimination/cmake-build-debug/CMakeFiles/gauss_elimination.dir/libs/matrix.c.o"
+  "/Users/guilhermemorais/CLionProjects/icc/gauss-elimination/main.c" "/Users/guilhermemorais/CLionProjects/icc/gauss-elimination/cmake-build-debug/CMakeFiles/gauss_elimination.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

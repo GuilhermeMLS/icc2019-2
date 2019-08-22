@@ -1,0 +1,3 @@
+/Users/guilhermemorais/CLionProjects/icc/gauss-elimination/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/guilhermemorais/CLionProjects/icc/gauss-elimination/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/guilhermemorais/CLionProjects/icc/gauss-elimination/cmake-build-debug/CMakeFiles/gauss_elimination.dir

@@ -78,13 +78,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/guilhermemorais/CLionProjects/icc/replacement/libs/matrix.c">
+			<Option target="gauss_elimination"/>
+		</Unit>
+		<Unit filename="/Users/guilhermemorais/CLionProjects/icc/replacement/libs/matrix.h">
+			<Option target="gauss_elimination"/>
+		</Unit>
 		<Unit filename="/Users/guilhermemorais/CLionProjects/icc/replacement/main.c">
-			<Option target="gauss_elimination"/>
-		</Unit>
-		<Unit filename="/Users/guilhermemorais/CLionProjects/icc/replacement/matrix.c">
-			<Option target="gauss_elimination"/>
-		</Unit>
-		<Unit filename="/Users/guilhermemorais/CLionProjects/icc/replacement/matrix.h">
 			<Option target="gauss_elimination"/>
 		</Unit>
 		<Unit filename="/Users/guilhermemorais/CLionProjects/icc/replacement/CMakeLists.txt">
