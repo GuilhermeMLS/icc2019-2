@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "stdlib.h"
 
-#include "../libs/matrix.h"
+#include "libs/matrix.h"
 
 int main(int argc, char **argv) {
     if (argc <= 1) {
