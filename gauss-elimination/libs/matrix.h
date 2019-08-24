@@ -5,6 +5,7 @@
 #include "stdlib.h"
 
 void replacementTechnique(float **matrix, float *b, float *x, int n);
+void gaussElimination(float **matrix, float *b, int n);
 void printMatrix(float **matrix, int n);
 float **allocateMatrix(int n);
 void printArray(float *arr, int n);
