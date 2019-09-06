@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-
-clear && make remake && ./main 3 < matrix
