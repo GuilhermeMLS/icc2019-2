@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/guilhermemorais/CLionProjects/icc/trab1/main.c
+stdio.h
+-
+stdlib.h
+-
+math.h
+-
+pdelib.h
+/Users/guilhermemorais/CLionProjects/icc/trab1/pdelib.h
+
+/Users/guilhermemorais/CLionProjects/icc/trab1/pdelib.h
+unistd.h
+-
+getopt.h
+-
+

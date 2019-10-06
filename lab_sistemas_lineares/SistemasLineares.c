@@ -146,9 +146,9 @@ int eliminacaoGauss (SistLinear_t *SL, real_t *x, int pivotamento)
     // Eliminação de Gauss
     for (int k = 0; k < n-1; k++) {
         // Pivotamento
-//        if (pivotamento) {
-//            pivotar(SL, k);
-//        }
+        if (pivotamento) {
+            pivotar(SL, k);
+        }
         for (int i = 1 + k; i < n; i++) {
             m = matrix[i*n+k] / matrix[k*n+k];
             for (int j = k; j < n; j++) {
@@ -186,7 +186,30 @@ int eliminacaoGauss (SistLinear_t *SL, real_t *x, int pivotamento)
 */
 int gaussJacobi (SistLinear_t *SL, real_t *x, real_t erro)
 {
+    int n = SL->n;
+    real_t *b = SL->b;
+    real_t *A = SL->b;
 
+    // 1) Isola os elementos das diagonais principais
+    // 2) Chuta um vetor inicial de solução
+    // 2) Enquanto o erro não estiver satisfatoriamente pequeno
+        // Calcular vetor solução a partir do vetor anterior
+    real_t *kick = malloc(sizeof(real_t)*n);
+    for (int i = 0; i < n; i++) {
+        kick[i] = 0;
+    }
+    // TODO: Ao final desse for eu vou ter a primeira iteração de X em cima do chute inicial
+    //     Achar um jeito de salvar ela e usar na próxima iteração
+    //     Até que o erro entre a atual e a anterior seja bem pequeno
+    for (int i = 0; i < n; i++) {
+        kick[i] = b[i] / A[i*n+i];
+        for (int j = 0; j < n; j++) {
+            if (j != i) {
+                kick[i] -= (A[i*n+j] * kick[j]) / A[i*n+i];
+            }
+
+        }
+    }
 
 }
 

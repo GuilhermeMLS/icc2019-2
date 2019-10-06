@@ -7,7 +7,7 @@
 
 int main ()
 {
-    // inicializa gerador de nr aleatoreos
+   // inicializa gerador de nr aleatoreos
     srand(20192);
     int n = 3;
     SistLinear_t *SL = alocaSistLinear(n);
@@ -32,7 +32,6 @@ int main ()
 //    replacement(SL, x);
     printf("\nResolução do sistema: \n");
     prnVetor(x, SL->n);
-
 
 }
 
